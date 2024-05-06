@@ -1,21 +1,21 @@
 body {
     text-align: center;
-    background-color: turquoise; /* Light gray background */
-    font-family: Georgia, serif; /* Changing font family to Georgia */
+    background-color: turquoise;
+    font-family: Georgia, serif;
     font-size: large;
 }
 
 ul {
-    border: 2px solid #333; /* Dark gray border */
+    border: 2px solid #333;
     border-radius: 25px;
     max-width: 600px;
-    width: 70%; /* Adjust width as needed */
-    margin: 50px auto 0; /* Centering the ul element from the top */
-    padding: 20px; /* Adding padding for better spacing */
-    background-color: #fff; /* White background for the paragraph */
-    color: #333; /* Dark gray text color */
+    width: 70%;
+    margin: 50px auto 0;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
 }
 
 li {
-    margin-bottom: 10px; /* Adding margin bottom between list elements */
+    margin-bottom: 10px;
 }
