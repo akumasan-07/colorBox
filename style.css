@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5; /* Light grey background */
+    color: #333;
+}
+
+.changes{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Deep purple box background */
+    border: 2px solid #d4af37; /* Gold border */
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+    background-color: #d4af37; /* Gold button background */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #b89628; /* Darker gold on hover */
+}
+
+.center {
+    display: block;
+    margin: 20px auto;
+}
+
+.colors {
+    max-width: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.names {
+    margin: 0 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.ans {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.out {
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+    color: #333;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}

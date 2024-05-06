@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: turquoise;">
+        <br><br><br>
+        <button class="center button" onclick="newGame()">New Game</button>
+        <button class="center button" onclick="window.location.href='tutorial.html'">How to Play</button>
+        <div class="colors">
+            <div class="names" id="name1">Color</div>
+            <div class="names" id="name2">Color</div>
+            <div class="names" id="name3">Color</div>
+            <div class="names" id="name4">Color</div>
+            <div class="names" id="name5">Color</div>
+        </div>
+        
+        <div class="container">
+            <div class="box" id="b1">Box 1</div>
+            <div class="box" id="b2">Box 2</div>
+            <div class="box" id="b3">Box 3</div>
+            <div class="box" id="b4">Box 4</div>
+            <div class="box" id="b5">Box 5</div>
+        </div>
+
+        <div class="changes">
+            <button class="button" id="c1" onclick="colChange(1)">Color 1</button>
+            <button class="button" id="c2" onclick="colChange(2)">Color 2</button>
+            <button class="button" id="c3" onclick="colChange(3)">Color 3</button>
+            <button class="button" id="c4" onclick="colChange(4)">Color 4</button>
+            <button class="button" id="c5" onclick="colChange(5)">Color 5</button>
+        </div>
+    
+        <button class="button center" id="submit" onclick="submit()">Submit</button><br>
+
+        <button id="showResult" class="button center" onclick="showResult()">Show Result</button>
+        <div class="ans" hidden=true>
+            <div class="out" id="m1"></div>
+            <div class="out" id="m2"></div>
+            <div class="out" id="m3"></div>
+            <div class="out" id="m4"></div>
+            <div class="out" id="m5"></div>
+        </div>
+        
+        <script src="colorBox.js"></script>
+    </body>
+</html>

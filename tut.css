@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    background-color: turquoise; /* Light gray background */
+    font-family: Georgia, serif; /* Changing font family to Georgia */
+    font-size: large;
+}
+
+ul {
+    border: 2px solid #333; /* Dark gray border */
+    border-radius: 25px;
+    max-width: 600px;
+    width: 70%; /* Adjust width as needed */
+    margin: 50px auto 0; /* Centering the ul element from the top */
+    padding: 20px; /* Adding padding for better spacing */
+    background-color: #fff; /* White background for the paragraph */
+    color: #333; /* Dark gray text color */
+}
+
+li {
+    margin-bottom: 10px; /* Adding margin bottom between list elements */
+}
